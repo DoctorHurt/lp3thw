@@ -25,12 +25,7 @@ line3 = input("line 3: ")
 
 print("Imma gonna write your craptastic lines to the file now, punk!")
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(f"{line1}\n{line2}\n{line3}\n")
 
 print("And finally, we gonna close yo ungly azz file!")
 target.close()
