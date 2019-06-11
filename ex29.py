@@ -26,3 +26,6 @@ if people <= dogs:
 
 if people == dogs:
     print("People are dogz, yo!")
+
+if cats > dogs and people < cats:
+    print("The catz are taking over!!")
