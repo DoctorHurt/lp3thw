@@ -8,8 +8,7 @@ numbers = list()
 def listAppend(totalnums, incr=1):
     """ Appends totalnums numbers to the end of the numbers list
     using incr increment """
-    i = 0
-    while i < totalnums:
+    for i in range(tn):
         print(f"At the top i is {i}")
         numbers.append(i)
 
